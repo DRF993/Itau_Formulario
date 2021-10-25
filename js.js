@@ -2,10 +2,10 @@
 
 function validarCPF(strCPF) {	
 
-
     var Soma;
     var Resto;
     Soma = 0;
+
   if (strCPF == "00000000000") {
       
     alert('CPF INVÁLIDO ');
@@ -36,11 +36,23 @@ function validarCPF(strCPF) {
         return false;
         
     }
+
     return true;
+
     }
 
 
-function enviar (){
+   
+function enviar(){
+
+     // var nome = document.getElementById('nomeid').value="";    
+
+     // Vou pegar o valor de todos campos OBRIGATÓRIOS
+     // Fazer um IF comparando se estão vazios com o operador || ( ou )
+     // Se algum estiver vazio retornar FALSE e mostrar alert ( "Preencha todos campos")
+     // ELSE ( se todos estiverem preenchidos ) retorna TRUE e mostra  alert ( " Cadastro efetuado com sucesso !")
+
+}
 
     
-}
+   
