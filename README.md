@@ -1,0 +1,3 @@
+Formulário de cadastro pessoal, com campos de preenchimento obrigatórios, sendo eles: Nome, CPF, Celular e Endereço. Ao submeter o formulário, caso haja algum campo obrigatório sem ser preenchido, é exibido uma mensagem ao lado do campo indicando sua obrigatoriedade.
+
+O Campo CPF ao perder o foco, roda uma função do Javascript que verifica se o CPF digitado é válido ou não, nos casos negativos exibe um alerta ao usuário informando que o CPF não é válido e limpa o campo.
